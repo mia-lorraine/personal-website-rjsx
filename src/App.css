@@ -48,6 +48,7 @@ height: 100%;
   color: white;
   font-size: 20px;
   padding: 1em;
+  font-family: 'Heebo';
 
 }
 
@@ -87,7 +88,7 @@ padding-top: 2em;
   height:550px;
   background:white;
   color: black;
-  magin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-grid h2 {

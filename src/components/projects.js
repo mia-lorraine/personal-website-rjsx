@@ -17,10 +17,10 @@ class Projects extends Component {
           background:'url(http://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
           React Project #1
           </CardTitle>
-          <CardText> This project consisted of yada yada yada
+          <CardText> This website was built with the intent to help Product Managers track the progress of their products. 
           </CardText>
           <CardActions border>
-            <Button colored> GitHub </Button>
+            <a href='https://github.com/mia-lorraine/portfolio'> GitHub Repository</a>
           </CardActions>
           <CardMenu style = {{color: '#fff'}}>
             <IconButton name="share"/>
@@ -33,7 +33,7 @@ class Projects extends Component {
             background:'url(http://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >
             React Project #1
             </CardTitle>
-            <CardText> This project consisted of yada yada yada
+            <CardText> 
             </CardText>
             <CardActions border>
               <Button colored> GitHub </Button>

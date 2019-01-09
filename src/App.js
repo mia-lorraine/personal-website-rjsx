@@ -13,7 +13,6 @@ class App extends Component {
           <Header className = "header-color" scroll>
               <Navigation>
                   <Link to="/">Home</Link>
-                  <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
@@ -21,16 +20,17 @@ class App extends Component {
           </Header>
           <Drawer title="Title">
               <Navigation>
-              <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
               </Navigation>
           </Drawer>
           <Content>
-              <div className="page-content" />
+              <div className="page-content">
+              </div>
               <Main/>
           </Content>
+
       </Layout>
   </div>
     );
